@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow -->
+    <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#00000000"/> <!-- Transparent background for shadow -->
+            <corners android:radius="30dp"/> <!-- Rounded corners for shadow -->
+            <size android:width="170dp" android:height="68dp"/> <!-- Adjust size as needed -->
+            <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp"/> <!-- No padding -->
+            <stroke android:width="0dp" android:color="#E5CD9F"/> <!-- Shadow color -->
+        </shape>
+    </item>
+
+    <!-- Button Background -->
+    <item android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#F8E9C8"/> <!-- Button color -->
+            <corners android:radius="30dp"/> <!-- Rounded corners -->
+        </shape>
+    </item>
+</layer-list>

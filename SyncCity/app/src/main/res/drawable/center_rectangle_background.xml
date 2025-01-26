@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F8E9C8"/> <!-- Rectangle background color -->
+    <corners android:radius="30dp"/> <!-- Rounded corners -->
+    <padding android:left="16dp" android:top="16dp" android:right="16dp" android:bottom="16dp"/> <!-- Padding inside rectangle -->
+    <size android:width="293dp" android:height="76dp"/> <!-- Adjust size as needed -->
+    <elevation android:elevation="4dp"/> <!-- Shadow elevation -->
+    <stroke
+        android:width="2dp"
+        android:color="#4D4A43"/> <!-- Border color and width -->
+</shape>

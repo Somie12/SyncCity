@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SyncCity</string>
+    <string name="register">Register</string>
+    <string name="click_here_to_reset">Click here to reset</string>
+    <string name="user_display_picture">user_display_picture</string>
+    <string name="add_resource">add_resource</string>
+    <string name="back_button_description">Go back</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="forum_type_array">
+        <item>Select Forum Type</item>
+        <item>Interdepartmental Forum</item>
+        <item>Interdepartmental Forum</item>
+        <item>Public Forum</item>
+    </string-array>
+
+    <!-- Strings for the Intra Department section -->
+    <string name="my">My</string>
+    <string name="department">Intra-departmental</string>
+    <string name="members">836 Members, 263 Projects</string>
+    <string name="projects">263 Projects</string>
+
+
+    <!-- String for the Description -->
+    <string name="description_text">The Intra-Departmental Discussion Forum facilitates internal communication within a department, allowing members to discuss projects, manage tasks, and share resources efficiently.</string>
+
+
+    <!-- Strings for the Inter Department section -->
+    <string name="my_inter">My</string>
+    <string name="department_inter">Inter-departmental</string>
+    <string name="members_inter">836 Members, 263 Projects</string>
+    <string name="projects_inter">263 Projects</string>
+
+
+    <!-- String for the Inter Description -->
+    <string name="description_text_inter">The Inter-Departmental Discussion Forum enables collaboration between different departments, allowing them to coordinate on shared projects, exchange resources, and align tasks to avoid conflicts and streamline project execution.</string>
+
+
+    <!-- Strings for the Intra Department section -->
+    <string name="my_public">My</string>
+    <string name="department_public">Public Discussion</string>
+    <string name="members_public">836 Members, 263 Projects</string>
+    <string name="projects_public">263 Projects</string>
+
+
+    <!-- String for the Description -->
+    <string name="description_text_public"> The Public Forum allows open discussions between citizens and departments, promoting transparency, feedback, and engagement on city projects. </string>
+
+
+    <string name="project_description">The ITER Lane road-widening project caused substantial disruption when the roads were initially dug up. Shortly afterward, additional excavation was required for drainage modifications, which further compounded the inconvenience. This sequence of events highlights the lack of coordination between departments. By implementing better planning and future phasing strategies, both the road widening and drainage work could have been executed simultaneously. Such an approach would have minimized disruption, saved time, and made more efficient use of resources, avoiding the need for repeated excavation. Improved inter-departmental communication and collaboration are essential for optimizing project outcomes and reducing overall costs.</string>
+
+</resources>

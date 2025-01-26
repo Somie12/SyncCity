@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E1D3D3">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unified Project Phasing Predictor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_color"
+        android:paddingBottom="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/inputProjectId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Project ID"
+        android:inputType="number"
+        android:backgroundTint="@color/input_background"
+        android:padding="12dp"
+        android:fontFamily="sans-serif"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/inputPhaseId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Phase ID"
+        android:inputType="number"
+        android:backgroundTint="@color/input_background"
+        android:padding="12dp"
+        android:fontFamily="sans-serif"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/inputDuration"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Phase Duration (days)"
+        android:inputType="number"
+        android:backgroundTint="@color/input_background"
+        android:padding="12dp"
+        android:fontFamily="sans-serif"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/inputResources"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Resources Required"
+        android:inputType="number"
+        android:backgroundTint="@color/input_background"
+        android:padding="12dp"
+        android:fontFamily="sans-serif"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/inputComplexity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Task Complexity (0-Low, 1-Medium, 2-High)"
+        android:inputType="number"
+        android:backgroundTint="@color/input_background"
+        android:padding="12dp"
+        android:fontFamily="sans-serif"
+        android:elevation="2dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predict"
+        android:textSize="18sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/result_color"
+        android:paddingTop="32dp"
+        android:fontFamily="serif"
+        android:gravity="center"/>
+</LinearLayout>

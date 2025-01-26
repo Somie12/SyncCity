@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/item_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/projectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/projectLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp"
+        android:layout_below="@id/projectName"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/projectLocation"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/projectStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondaryText"
+            android:textSize="14sp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/projectEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondaryText"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/projectStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_green"
+        android:textSize="16sp"
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/projectEndDate"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/projectDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tertiaryText"
+        android:textSize="14sp"
+        android:layout_below="@id/projectStatus"
+        android:layout_marginTop="4dp"/>
+</RelativeLayout>

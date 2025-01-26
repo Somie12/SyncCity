@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9D7750">
+
+    <!-- Heading TextView -->
+
+    <!-- Circular Image -->
+    <TextView
+        android:id="@+id/project_name_heading"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:text="Road Widening and Drainage Modification Project (Ongoing)"
+        android:textColor="#F8E9C8"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="5dp" />
+
+
+
+    <!-- Rectangle Box -->
+
+    <!-- Circular Image -->
+
+    <ImageView
+        android:id="@+id/ellipse_image"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circular_image_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <!-- Name TextView -->
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Harish Mahto"
+        android:textColor="#F8E9C8"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <!-- Department TextView -->
+    <TextView
+        android:id="@+id/department_text"
+        android:layout_width="145dp"
+        android:layout_height="15dp"
+        android:fontFamily="sans-serif"
+        android:text="Public Works Department"
+        android:textColor="#F8E9C8"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <!-- Publication Date TextView -->
+    <TextView
+        android:id="@+id/publication_date_text"
+        android:layout_width="97dp"
+        android:layout_height="12dp"
+        android:fontFamily="serif"
+        android:text="published on 1st August, 2024"
+        android:textColor="#FFFFFF"
+        android:textSize="7sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:alpha="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/project_description"
+        android:textColor="#4D4A43"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="150dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/budget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="4dp"
+        android:text="Budget Assigned: 5 lakhs"
+        android:textStyle="bold"
+        android:textColor="#4D4A43"
+        android:textSize="11sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/resources_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:fontFamily="sans-serif"
+        android:paddingTop="4dp"
+        android:text="Resources: resource file here"
+        android:textStyle="bold"
+        android:textColor="#4D4A43"
+        android:textSize="11sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+
+    <!-- Circle and Line Views for Project Stages -->
+    <!-- Circle 1 -->
+
+    <!-- Line 1 -->
+
+    <!-- Circle 2 -->
+
+    <!-- Line 2 -->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/resources_text" />-->
+
+    <View
+        android:id="@+id/circle1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/filled_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <!--        app:layout_constraintStart_toStartOf="@+id/circle1"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/circle1" />-->
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:background="#F8E9C8"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="427dp"
+        tools:ignore="MissingConstraints" />
+
+    <!--        app:layout_constraintStart_toStartOf="@+id/circle1"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/line1" />-->
+
+    <View
+        android:id="@+id/circle2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/filled_circle"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="MissingConstraints" />
+
+    <!--        app:layout_constraintStart_toStartOf="@+id/circle2"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/circle2"/>-->
+
+    <!-- Circle 3 -->
+
+    <!-- Line 3 -->
+    <!--        app:layout_constraintStart_toStartOf="@+id/circle2"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/line2" />-->
+
+    <!--        app:layout_constraintStart_toStartOf="@+id/circle3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/circle3"/>-->
+
+    <!-- Circle 4 -->
+    <!--        app:layout_constraintStart_toStartOf="@+id/circle3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/line3" />-->
+
+    <!-- Text for Each Stage -->
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:background="#F8E9C8"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="540dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circle3"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/hollow_circle"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="580dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:background="#F8E9C8"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="484dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circle4"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/hollow_circle"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="524dp"
+        tools:ignore="MissingConstraints" />
+
+    <!--        app:layout_constraintStart_toEndOf="@+id/circle1"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/circle1" />-->
+
+    <!--        app:layout_constraintStart_toStartOf="@+id/textStage1"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/circle2" />-->
+
+    <!--        app:layout_constraintStart_toStartOf="@+id/textStage2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/circle3" />-->
+
+    <TextView
+        android:id="@+id/textStage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="3rd August, Project starts"
+        android:textColor="#F8E9C8"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="411dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textStage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="7th August, First stage completed"
+        android:textColor="#F8E9C8"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textStage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="9th August, Second Stage to be Completed"
+        android:textColor="#F8E9C8"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="524dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textStage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="25th August, Expected Completion of the project"
+        android:textColor="#F8E9C8"
+        android:textSize="10sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="582dp" />
+    <!--        app:layout_constraintStart_toStartOf="@+id/textStage3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/circle4" />-->
+
+
+    <!-- Rectangle 1 -->
+    <View
+        android:id="@+id/rectangle1"
+        android:layout_width="413dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rectangle_background"
+        app:layout_constraintTop_toBottomOf="@id/textStage4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Comment Input Box with Rounded Corners -->
+    <EditText
+        android:id="@+id/comment_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/rounded_input_box"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:hint="Comment Here"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="@id/rectangle1"
+        app:layout_constraintStart_toStartOf="@id/rectangle1"
+        app:layout_constraintEnd_toEndOf="@id/rectangle1"
+        app:layout_constraintBottom_toTopOf="@id/button_row" />
+
+    <!-- Button Row for "Comment" and "Reply" -->
+    <LinearLayout
+        android:id="@+id/button_row"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        app:layout_constraintEnd_toEndOf="@id/rectangle1"
+        app:layout_constraintStart_toStartOf="@id/rectangle1"
+        app:layout_constraintTop_toBottomOf="@id/comment_input">
+
+        <!-- Comment Button -->
+        <Button
+            android:id="@+id/comment_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9D7750"
+            android:text="Comment"
+            android:textColor="#FFFFFF" />
+
+        <!-- Reply Button -->
+        <Button
+            android:id="@+id/reply_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9D7750"
+            android:text="Reply"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

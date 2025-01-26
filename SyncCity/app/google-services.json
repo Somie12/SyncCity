@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976931645599",
+    "project_id": "synccity-e418a",
+    "storage_bucket": "synccity-e418a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976931645599:android:2f043923cf69a593f29aaa",
+        "android_client_info": {
+          "package_name": "harish.project.synccity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976931645599-a46cp398dmos536g82hhbt05vts35vd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "harish.project.synccity",
+            "certificate_hash": "a23e141bcbe77f85d36e76119e60d1bd4f823bca"
+          }
+        },
+        {
+          "client_id": "976931645599-tkues0tp5g805lpnp4i6bo9i5trrfbjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9f01kOXp_wHCyxvpdCRCe0TS6aqAuNlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976931645599-tkues0tp5g805lpnp4i6bo9i5trrfbjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="green_blue">#0A3D62</color>
+    <color name="dark_blue">#192A56</color>
+    <color name="dark_green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="light_gray">#AFACAC</color>
+    <color name="blue">#2196F3</color>
+
+        <color name="background">#F5F5F5</color>
+        <color name="primaryText">#333333</color>
+        <color name="secondaryText">#666666</color>
+        <color name="tertiaryText">#999999</color>
+        <color name="statusColor">#FF5722</color>
+        <color name="searchBackground">#FFFFFF</color>
+        <color name="buttonNormal">#2196F3</color>
+        <color name="buttonPressed">#1976D2</color>
+        <color name="itemBackground">#FFFFFF</color>
+        <color name="itemBorder">#DDDDDD</color>
+
+    <color name="colorBackground">#f8e9c8</color>
+    <color name="colorPrimary">#9D7750</color>
+    <color name="colorPrimaryDark">#333a19</color>
+    <color name="colorAccent">#A60c0a</color>
+    <color name="colorText">#333333</color>
+    <color name="colorSecondary">#A60C0A</color>
+
+
+        <color name="background_color">#F5F5F5</color> <!-- Light Gray Background -->
+        <color name="title_color">#1E88E5</color> <!-- Deep Blue Title -->
+        <color name="input_background">#FFFFFF</color> <!-- White Input Field -->
+        <color name="button_background">#43A047</color> <!-- Green Button Background -->
+        <color name="result_color">#D32F2F</color> <!-- Red Result Text -->
+
+
+
+
+
+</resources>
